@@ -1,0 +1,23 @@
+.btn-group {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  top: 9.2rem;
+  right: 8rem;
+  font-size: 1.6rem;
+}
+@media (max-width: 1024px) {
+  .btn-group {
+    top: 6rem;
+    right: 6rem;
+    height: 5.2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .btn-group {
+    top: 4rem;
+    right: 4rem;
+  }
+}

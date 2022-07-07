@@ -1,0 +1,15 @@
+.sns {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  margin-top: -0.4rem;
+}
+.sns a {
+  display: block;
+  padding: 0.4rem;
+  line-height: 1;
+}
+.sns img {
+  width: 1.6rem;
+  display: block;
+}

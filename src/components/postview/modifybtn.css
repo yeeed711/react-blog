@@ -1,0 +1,16 @@
+.btn-modify {
+  width: 4rem;
+  height: 4rem;
+  border: 0;
+  border-radius: var(--border-radius);
+  transition: all 0.3s;
+}
+.btn-modify {
+  background: var(--gray-background) url(../../assets/icon-modify.svg) no-repeat
+    50% 50% / 1.6rem;
+  right: 13rem;
+}
+.btn-modify:hover {
+  background: var(--main-color) url(../../assets/icon-modify-white.svg)
+    no-repeat 50% 50% / 1.6rem;
+}

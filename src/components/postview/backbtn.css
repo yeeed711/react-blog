@@ -1,0 +1,25 @@
+.btn-back {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  background: var(--gray-background) url(../../assets/ArrowLeft-blue.svg)
+    no-repeat 50% 50% / 4rem;
+  font-size: 1.6rem;
+}
+.view .wrap-box .btn-back {
+  position: absolute;
+  top: 8rem;
+  left: 0;
+}
+@media (max-width: 1024px) {
+  .view .wrap-box .btn-back {
+    top: 6rem;
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+}
+@media (max-width: 640px) {
+  .view .wrap-box .btn-back {
+    top: 4rem;
+  }
+}
